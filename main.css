@@ -1,11 +1,14 @@
+body {
+  background-color: grey;
+}
+
 #terrain {
-  width: 900px;
-  height: 500px;
   background-color: darkgreen;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px;
+  width: 750px;
+  height: 500px;
 }
 #titre {
   text-align: center;
@@ -56,4 +59,44 @@
   top: calc(50% - 50px);
   position: absolute;
   border: 5px solid white;
+}
+
+#terrainfond{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  background-color: darkblue;
+  border-radius: 15px;
+  width: 780px;
+  height: 530px;
+}
+
+#titrefond {
+  width: 160px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkblue;
+  border-radius: 15px;
+  margin-top: -50px;
+}
+
+.titre{
+  color: white;
+  text-align: center;
+  font-family: Chewy;
+}
+
+.ballon{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 210px;
+}
+
+copyright {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
 }
