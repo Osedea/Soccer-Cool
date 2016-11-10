@@ -1,5 +1,45 @@
-#terrain {
-width: 350px;
-height: 250px;
-background-color: darkgreen;
+#terrain{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  width: 750px;
+  height: 500px;
+}
+
+#terrainfond{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  background-color: darkblue;
+  border-radius: 15px;
+  width: 780px;
+  height: 530px;
+}
+
+#titrefond {
+  width: 160px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkblue;
+  border-radius: 15px;
+  margin-top: -50px;
+}
+
+.titre{
+  color: white;
+  text-align: center;
+  font-family: Chewy;
+}
+
+.ballon{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left:210px;
+}
+
+body{
+  background-color: grey;
 }
