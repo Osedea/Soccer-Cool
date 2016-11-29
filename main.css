@@ -91,12 +91,53 @@ body {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 50px;
-  left: 210px;
+  top: 40px;
+  left: 180px;
 }
 
-copyright {
+copyright{
   text-align: center;
   color: white;
   padding-top: 20px;
+}
+
+#ballon{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: calc(50% - 5px);
+  left: calc(50% - 5px);
+  background-color: black;
+  border-radius: 100%;
+
+}
+
+#score{
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+#button{
+
+}
+
+#player2{
+  background-color: blue;
+  right: 85px;
+
+}
+
+#player1 {
+  background-color: red;
+  left: 85px;
+
+}
+
+.player {
+  transition: all 0.2s ease;
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  top: 225px;
 }
